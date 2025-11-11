@@ -1,10 +1,24 @@
+# Robots.txt for Zarish Style Hub - Premium Jewelry Store
 User-agent: *
 Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
 
-# Sitemap location
-Sitemap: https://your-domain.com/sitemap.xml
+# Sitemap locations
+Sitemap: https://zarishstylehub.com/sitemap.xml
 
-# Disallow sensitive files
+# Disallow sensitive files and development folders
 Disallow: /scss/
 Disallow: /prepros-6.config
 Disallow: /*.scss$
+Disallow: /_headers
+Disallow: /DEPLOYMENT.md
+Disallow: /README.md
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Host specification
+Host: https://zarishstylehub.com

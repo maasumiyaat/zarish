@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://your-domain.com/</loc>
+    <loc>https://zarishstylehub.com/</loc>
+    <lastmod>2024-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://zarishstylehub.com/images/og-zarish-jewelry.jpg</image:loc>
+      <image:title>Zarish Style Hub Premium Jewelry Collection</image:title>
+      <image:caption>Exquisite handcrafted jewelry featuring diamonds, gold, and pearls</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://your-domain.com/about.html</loc>
+    <loc>https://zarishstylehub.com/about.html</loc>
+    <lastmod>2024-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/work.html</loc>
+    <loc>https://zarishstylehub.com/work.html</loc>
+    <lastmod>2024-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/gallery.html</loc>
+    <loc>https://zarishstylehub.com/gallery.html</loc>
+    <lastmod>2024-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/contact.html</loc>
+    <loc>https://zarishstylehub.com/contact.html</loc>
+    <lastmod>2024-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zarishstylehub.com/single.html</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

@@ -8345,16 +8345,19 @@ h1, h2, h3, h4, h5,
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 41vw;
+    font-size: clamp(500px, 30vw, 400px);
     text-transform: uppercase;
     z-index: 1;
     color: #fff;
     color: transparent;
-    line-height: .1vh;
+    line-height: .8;
     -webkit-text-fill-color: transparent;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff; }
+    -webkit-text-stroke-color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; }
 
 .home-wrap .half {
   width: 50%;

@@ -1,0 +1,32 @@
+{
+  "name": "zarish-style-hub",
+  "version": "1.0.0",
+  "description": "Zarish – The Style Hub - Elegant Handcrafted Jewelry Website",
+  "author": "Zarish – The Style Hub",
+  "homepage": "https://your-domain.com",
+  "keywords": [
+    "jewelry",
+    "handcrafted",
+    "luxury",
+    "diamonds",
+    "pearls",
+    "gold",
+    "bridal",
+    "custom jewelry",
+    "zarish",
+    "style hub"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/zarish-style-hub"
+  },
+  "scripts": {
+    "start": "live-server .",
+    "deploy": "echo 'Ready for deployment to Cloudflare Pages'",
+    "optimize": "echo 'Run image optimization tools here'"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
